@@ -1,3 +1,8 @@
+*{
+    background-color: #8749c0;
+    color: #fff;
+}
+
 a {
     text-decoration: none;
     background-color: transparent;
@@ -5,7 +10,37 @@ a {
 a:hover{
     text-decoration: none;
 }
+#logo{
+    float: left;
+}
+.umenu{
+    list-style-type: none;
+    display: inline;
+    text-align: left;
+    
+}
+.umenu li {
+    float: left;
 
-li{
-    text-decoration: none;
+}
+
+.itemenu{
+    display: inline;
+}
+
+header{
+    padding: 0;
+    margin: auto;
+}
+section{
+    clear: both;
+}
+.menu{
+    padding-block: 1.5em;
+    width: 100vw;
+    height: 20vh;
+}
+
+li {
+    list-style: none;
 }
